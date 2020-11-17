@@ -1,0 +1,37 @@
+.container {
+
+margin:50px 0;
+}
+
+.card {
+    margin:0 2% !important;
+
+}
+
+.infected:hover {
+    border-bottom: 10px solid rgba(10, 10, 226, 0.5);
+    background-image: linear-gradient(rgb(227, 235, 240), rgb(146, 203, 241));
+
+      
+
+}
+
+
+.recovered:hover {
+    border-bottom: 10px solid rgba(5, 88, 26, 0.5);
+    background-image: linear-gradient(rgb(227, 235, 240), rgb(146, 203, 241));
+    
+}
+
+.deaths:hover {
+    border-bottom: 10px solid rgba(243, 7, 7, 0.5);
+    background-image: linear-gradient(rgb(227, 235, 240), rgb(146, 203, 241));
+    
+}
+
+.title {
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+    flex-direction: column;
+}
